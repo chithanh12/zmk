@@ -1,0 +1,10 @@
+if SHIELD_MINIRIS
+
+config ZMK_KEYBOARD_NAME
+    default "Miniris"
+
+endif
+
+CONFIG_ZMK_RGB_UNDERGLOW=y
+# Use the STRIP config specific to the LEDs you're using
+CONFIG_WS2812_STRIP=y
