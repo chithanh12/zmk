@@ -1,6 +1,6 @@
 file_format: "1"
-id: miniris
-name: Miniris
+id: minidactyl
+name: Minidactyl
 type: shield
 url: https://github.com/zmkfirmware/zmk
 requires: [nrfmicro_13]
@@ -8,5 +8,5 @@ features:
   - keys
   - underglow
 siblings:
-  - miniris_left
-  - miniris_right
+  - minidactyl_left
+  - minidactyl_right
